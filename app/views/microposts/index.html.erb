@@ -1,7 +1,7 @@
 <table>
   <thead>
   <tr>
-    <th id="title"><h1>What's Micro-posted?</h1></th>
+    <h1>What's Micro-posted?</h1>
   </tr>
     <tr>
       <th>Content</th>
@@ -12,8 +12,8 @@
 
   <tbody>
     <% @microposts.each do |micropost| %>
-      <tr>
-        <td><%= micropost.content %></td>
+          <tr>
+        <td class="content"><%= micropost.content %></td>
         <td><%= micropost.user_id%></td>
         <td><%= link_to 'Show', micropost %>
         <%= link_to 'Edit', edit_micropost_path(micropost) %>

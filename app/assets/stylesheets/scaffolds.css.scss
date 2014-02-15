@@ -6,10 +6,17 @@ body {
   line-height: 18px;
 }
 
-p, ol, ul, td {
+table {
+}
+.content {
+  width: 500px;
+}
+ol, ul, td, th {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+  border: solid;
+  border-width: 1px;
 }
 
 pre {

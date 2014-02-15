@@ -3,7 +3,7 @@ ruby '1.9.3'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.0.2'
-
+gem 'thin'
 group :development do
   gem 'sqlite3', '1.3.8'
 end

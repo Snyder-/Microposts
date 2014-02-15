@@ -4,7 +4,7 @@
     <data-source source="LOCAL" name="Rails wineclub: development" uuid="0c08ea22-147e-4fd5-bcfb-0dc54bd29d50">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Sites\wineclub\db\development.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Sites\firstapp\db\development.sqlite3</jdbc-url>
       <libraries />
     </data-source>
   </component>

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a3af979-0593-42c9-a8aa-9a949000f76d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wineclub.iws" />
@@ -31,19 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/microposts/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="27" selection-start="52" selection-end="52" vertical-scroll-proportion="-1.8076923" vertical-offset="4" max-vertical-offset="561">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="4" selection-start="467" selection-end="467" vertical-scroll-proportion="0.43965518" vertical-offset="0" max-vertical-offset="580">
+            <state line="3" column="27" selection-start="52" selection-end="52" vertical-scroll-proportion="0.08483755" vertical-offset="4" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
@@ -653,12 +643,16 @@
       <created>1392508095317</created>
       <updated>1392508095317</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="sqlite database removed from .gitignore file">
+      <created>1392520595462</created>
+      <updated>1392520595462</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="221" y="25" width="1400" height="990" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -669,7 +663,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33259913" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33259913" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33259913" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -702,7 +696,8 @@
     <MESSAGE value="-m layout&#10;# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;# On branch layout&#10;# Changes to be committed:&#10;#   (use &quot;git reset HEAD &lt;file&gt;...&quot; to unstage)&#10;#&#10;#&#9;modified:   .idea/workspace.xml&#10;#&#10;" />
     <MESSAGE value="ok" />
     <MESSAGE value="layout&#10;# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;# On branch layout&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="layout&#10;# Please enter the commit message for your changes. Lines starting&#10;# with '#' will be ignored, and an empty message aborts the commit.&#10;# On branch layout&#10;" />
+    <MESSAGE value="sqlite database removed from .gitignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="sqlite database removed from .gitignore file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -991,16 +986,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/microposts/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="27" selection-start="52" selection-end="52" vertical-scroll-proportion="-1.8076923" vertical-offset="4" max-vertical-offset="561">
+        <state line="15" column="4" selection-start="467" selection-end="467" vertical-scroll-proportion="0.43965518" vertical-offset="0" max-vertical-offset="580">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/app/views/microposts/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="467" selection-end="467" vertical-scroll-proportion="0.43965518" vertical-offset="0" max-vertical-offset="580">
+        <state line="3" column="27" selection-start="52" selection-end="52" vertical-scroll-proportion="0.08483755" vertical-offset="4" max-vertical-offset="561">
           <folding />
         </state>
       </provider>

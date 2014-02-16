@@ -4,7 +4,13 @@
     <data-source source="LOCAL" name="Rails wineclub: development" uuid="0c08ea22-147e-4fd5-bcfb-0dc54bd29d50">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Sites\firstapp\db\development.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Users\Sean\SkyDrive\Rails Projects\firstapp\db\development.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails wineclub: test" uuid="5bfc4c10-f214-4819-ba3e-498de4609b41">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\Sean\SkyDrive\Rails Projects\firstapp\db\test.sqlite3</jdbc-url>
       <libraries />
     </data-source>
   </component>

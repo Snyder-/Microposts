@@ -9,6 +9,12 @@
   <strong>Email:</strong>
   <%= @user.email %>
 </p>
+<p>
 
+<% unless @user.microposts.all.empty? %>
+      <strong>Posts:</strong>
+      <%= @user.microposts.all %>
+<%end%>
+</p>
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>

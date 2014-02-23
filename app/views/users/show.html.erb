@@ -13,7 +13,13 @@
 
 <% unless @user.microposts.all.empty? %>
       <strong>Posts:</strong>
-      <%= @user.microposts.all %>
+      <% @microposts.each do |f| %>
+      <div>
+        <p>
+        <%= f.content %> ---- <%= f.created_at.to_date %>
+        </p>
+      </div>
+      <%end%>
 <%end%>
 </p>
 <%= link_to 'Edit', edit_user_path(@user) %> |

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a3af979-0593-42c9-a8aa-9a949000f76d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/microposts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/microposts_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/microposts/show.html.erb" afterPath="$PROJECT_DIR$/app/views/microposts/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wineclub.iws" />
@@ -32,19 +33,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="9" selection-start="234" selection-end="234" vertical-scroll-proportion="0.648855" vertical-offset="0" max-vertical-offset="544">
-              <folding />
+            <state line="20" column="12" selection-start="377" selection-end="377" vertical-scroll-proportion="-4.0" vertical-offset="136" max-vertical-offset="544">
+              <folding>
+                <marker date="1393143092872" expanded="true" signature="36:99" placeholder="..." />
+                <marker date="1393143092872" expanded="true" signature="104:156" placeholder="..." />
+                <marker date="1393143092872" expanded="true" signature="160:275" placeholder="..." />
+                <marker date="1393143092872" expanded="true" signature="280:376" placeholder="..." />
+                <marker date="1393143092872" expanded="true" signature="292:363" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="microposts_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="microposts_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/microposts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="52" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0" vertical-offset="907" max-vertical-offset="1377">
+            <state line="68" column="42" selection-start="1795" selection-end="1795" vertical-scroll-proportion="2.6036036" vertical-offset="0" max-vertical-offset="1394">
               <folding />
             </state>
           </provider>
@@ -53,7 +60,7 @@
       <file leaf-file-name="users_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="0" selection-start="1623" selection-end="1623" vertical-scroll-proportion="0.0" vertical-offset="865" max-vertical-offset="1394">
+            <state line="69" column="7" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.0" vertical-offset="933" max-vertical-offset="1394">
               <folding />
             </state>
           </provider>
@@ -62,11 +69,17 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/microposts/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="340">
-              <folding>
-                <marker date="1392532284008" expanded="true" signature="36:97" placeholder="..." />
-                <marker date="1392532284008" expanded="true" signature="102:160" placeholder="..." />
-              </folding>
+            <state line="9" column="17" selection-start="146" selection-end="146" vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="340">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20140213145228_create_microposts.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20140213145228_create_microposts.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="24" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,15 +120,15 @@
         <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/views/microposts/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/microposts/show.json.jbuilder" />
         <option value="$PROJECT_DIR$/app/views/users/show.json.jbuilder" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/micropost.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/microposts_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/microposts/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/microposts_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/microposts/show.html.erb" />
       </list>
     </option>
   </component>
@@ -613,7 +626,11 @@
       <created>1393129928024</created>
       <updated>1393129928024</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added post view to user show pages">
+      <created>1393141985285</created>
+      <updated>1393141985285</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -665,7 +682,8 @@
     <MESSAGE value="sqlite database removed from .gitignore file" />
     <MESSAGE value="added posts to users/show" />
     <MESSAGE value="added some cache, updated fake db entries, added dalli gem" />
-    <option name="LAST_COMMIT_MESSAGE" value="added some cache, updated fake db entries, added dalli gem" />
+    <MESSAGE value="added post view to user show pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="added post view to user show pages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -683,10 +701,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/microposts/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding>
-            <marker date="1392532284008" expanded="true" signature="36:97" placeholder="..." />
-            <marker date="1392532284008" expanded="true" signature="102:160" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -925,13 +940,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/micropost.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.15315315" vertical-offset="0" max-vertical-offset="444">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.41666666" vertical-offset="185" max-vertical-offset="629">
@@ -946,9 +954,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140213145228_create_microposts.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/micropost.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="146" selection-end="146" vertical-scroll-proportion="0.15315315" vertical-offset="0" max-vertical-offset="444">
+        <state line="4" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.1607565" vertical-offset="0" max-vertical-offset="423">
           <folding />
         </state>
       </provider>
@@ -960,33 +968,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="12" selection-start="377" selection-end="377" vertical-scroll-proportion="-4.0" vertical-offset="136" max-vertical-offset="544">
+          <folding>
+            <marker date="1393143092872" expanded="true" signature="36:99" placeholder="..." />
+            <marker date="1393143092872" expanded="true" signature="104:156" placeholder="..." />
+            <marker date="1393143092872" expanded="true" signature="160:275" placeholder="..." />
+            <marker date="1393143092872" expanded="true" signature="280:376" placeholder="..." />
+            <marker date="1393143092872" expanded="true" signature="292:363" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140213145228_create_microposts.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="24" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/microposts/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="340">
-          <folding>
-            <marker date="1392532284008" expanded="true" signature="36:97" placeholder="..." />
-            <marker date="1392532284008" expanded="true" signature="102:160" placeholder="..." />
-          </folding>
+        <state line="9" column="17" selection-start="146" selection-end="146" vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="0" selection-start="1623" selection-end="1623" vertical-scroll-proportion="0.0" vertical-offset="865" max-vertical-offset="1394">
+        <state line="69" column="7" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.0" vertical-offset="933" max-vertical-offset="1394">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/microposts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="52" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1377">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="9" selection-start="234" selection-end="234" vertical-scroll-proportion="0.648855" vertical-offset="0" max-vertical-offset="544">
+        <state line="68" column="42" selection-start="1795" selection-end="1795" vertical-scroll-proportion="2.6036036" vertical-offset="0" max-vertical-offset="1394">
           <folding />
         </state>
       </provider>

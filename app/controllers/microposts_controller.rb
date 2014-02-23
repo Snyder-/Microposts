@@ -48,6 +48,7 @@ class MicropostsController < ApplicationController
         format.html { render action: 'edit' }
         format.json { render json: @micropost.errors, status: :unprocessable_entity }
       end
+      format.js
     end
   end
 

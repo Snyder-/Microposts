@@ -10,6 +10,7 @@ class MicropostsController < ApplicationController
   # GET /microposts/1
   # GET /microposts/1.json
   def show
+    @user = @micropost.user
   end
 
   # GET /microposts/new
@@ -66,7 +67,7 @@ class MicropostsController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_micropost
       @micropost = Micropost.find(params[:id])
-      @user = User.find(@micropost.user_id)
+      #@user = @micropost.user
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.

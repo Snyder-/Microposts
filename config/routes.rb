@@ -1,7 +1,8 @@
 Wineclub::Application.routes.draw do
+  root to: 'microposts#index'
   resources :microposts
-
   resources :users
+  get '/posts', to: 'microposts#index', as: 'posts'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

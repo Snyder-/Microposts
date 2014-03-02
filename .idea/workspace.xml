@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a3af979-0593-42c9-a8aa-9a949000f76d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wineclub.iws" />
@@ -564,7 +563,11 @@
       <created>1393686507822</created>
       <updated>1393686507822</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Improve gemfile">
+      <created>1393744035294</created>
+      <updated>1393744035294</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -639,7 +642,8 @@
     <MESSAGE value="added post view to user show pages" />
     <MESSAGE value="added @user to microposts&#10;" />
     <MESSAGE value="fixed @user to microposts, still needs validation for user in db&#10;added routes for posts&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed @user to microposts, still needs validation for user in db&#10;added routes for posts&#10;" />
+    <MESSAGE value="Improve gemfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve gemfile" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

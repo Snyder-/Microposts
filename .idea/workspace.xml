@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a3af979-0593-42c9-a8aa-9a949000f76d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/microposts/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/microposts/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/microposts/index.html.erb" afterPath="$PROJECT_DIR$/app/views/microposts/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
     </list>
     <ignored path="wineclub.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,10 +39,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scaffolds.css.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="scaffolds.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="8" selection-start="1824" selection-end="1824" vertical-scroll-proportion="-7.1923075" vertical-offset="1768" max-vertical-offset="2482">
+            <state line="127" column="18" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.15" vertical-offset="2102" max-vertical-offset="2482">
               <folding />
             </state>
           </provider>
@@ -86,10 +84,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/microposts/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.044736844" vertical-offset="0" max-vertical-offset="380">
+            <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="187">
               <folding />
             </state>
           </provider>
@@ -146,10 +144,10 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/models/add_devise_columns_to_user.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
         <option value="$PROJECT_DIR$/app/views/microposts/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/microposts/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/microposts/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
       </list>
     </option>
   </component>
@@ -972,13 +970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="8" selection-start="1824" selection-end="1824" vertical-scroll-proportion="-7.1923075" vertical-offset="1768" max-vertical-offset="2482">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/microposts/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="8" selection-start="434" selection-end="434" vertical-scroll-proportion="-9.807693" vertical-offset="153" max-vertical-offset="629">
@@ -995,7 +986,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/microposts/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.044736844" vertical-offset="0" max-vertical-offset="380">
+        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="18" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.15" vertical-offset="2102" max-vertical-offset="2482">
           <folding />
         </state>
       </provider>

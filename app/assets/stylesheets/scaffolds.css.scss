@@ -118,10 +118,10 @@ div {
 
 #navbar ul {
   margin: 0;
-  padding: 5px;
+  padding: 1px;
   list-style-type: none;
   text-align: center;
-  background-color: #000;
+  background-color: rgba(36, 36, 64, 0.52);
 }
 
 #navbar ul li {
@@ -130,9 +130,9 @@ div {
 
 #navbar ul li a {
   text-decoration: none;
-  padding: .2em 1em;
+  padding: .1em 1em;
   color: #fff;
-  background-color: #000;
+  background-color: rgba(36, 36, 64, 0.52);
 }
 
 #navbar ul li a:hover {

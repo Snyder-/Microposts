@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.2'
 gem 'thin'
 gem 'dalli'
+gem 'devise'
 group :development do
   gem 'sqlite3', '1.3.8'
 end

@@ -1,4 +1,5 @@
 Wineclub::Application.routes.draw do
+  devise_for :users
   root to: 'microposts#index'
   resources :microposts
   resources :users

@@ -24,5 +24,9 @@
 
 </table>
 <div>
-  <%= link_to 'Edit', edit_micropost_path(@micropost) %> | <%= link_to 'Back', microposts_path %>
+  <% if user_signed_in? %>
+    <%= link_to 'Edit', edit_micropost_path(@micropost) %> | <%= link_to 'Back', microposts_path %>
+  <% else %>
+    <%= link_to 'Back', microposts_path %>
+  <% end %>
 </div>

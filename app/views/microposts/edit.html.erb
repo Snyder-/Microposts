@@ -1,13 +1,5 @@
 <h1>Editing micropost</h1>
-<% if notice %>
-    <div id="error_explanation">
-      <h2>One error prohibited this micropost from being saved:</h2>
 
-      <ul>
-         <li><%= notice %></li>
-      </ul>
-    </div>
-<% end %>
 <%= render 'form' %>
 <%= link_to 'Show', @micropost %> |
 <%= link_to 'Back', microposts_path %>

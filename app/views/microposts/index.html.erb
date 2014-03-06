@@ -16,8 +16,10 @@
         <td class="content"><%= micropost.content %></td>
         <td><%= micropost.user_id%></td>
         <td><%= link_to 'Show', micropost %>
+        <% if user_signed_in? %>
         <%= link_to 'Edit', edit_micropost_path(micropost) %>
         <%= link_to 'Destroy', micropost, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <% end %>
       </tr>
     <% end %>
   </tbody>

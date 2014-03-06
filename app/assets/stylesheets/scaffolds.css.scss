@@ -5,32 +5,16 @@ body {
   font-size: 13px;
   line-height: 18px;
 }
+#content {
+  position: relative;
+  right: -360px;
+  top: 100px;
+}
 tr{
   background-color: lightgoldenrodyellow;
 }
-.title {
-  position: relative;
-  left: 500px;
-  top: 65px;
-}
 table {
-  position: absolute;
-  left: 300px;
-  top: 150px;
   background-color: lightslategray;
-}
-.content {
-  width: 500px;
-}
-.new-micro {
-  position: absolute;
-  left: 320px;
-  top: 155px;
-}
-.show-edit-back{
-  position: relative;
-  left: 300px;
-  top: 150px;
 }
 ol, ul, td, th {
   font-family: "consolas", arial, helvetica, sans-serif;

@@ -12,7 +12,7 @@ class MicropostsController < ApplicationController
   def show
     @user = @micropost.user
     if @user == nil
-      redirect_to root_path, notice: 'No user exists!'
+      redirect_to edit_micropost_path, notice: 'No user exists! Please change User ID'
     end
   end
 

@@ -1,4 +1,12 @@
-<p id="notice"><%= notice %></p>
+<% if alert %>
+    <div id="success_explanation">
+      <h2>Success:</h2>
+
+      <ul>
+        <li><%= alert %></li>
+      </ul>
+    </div>
+<% end %>
 <h1 class="title"><%= @user.name %> said...</h1>
 <table>
   <thead>
@@ -15,6 +23,6 @@
 </p>
 
 </table>
-<div class="show-edit-back">
+<div>
   <%= link_to 'Edit', edit_micropost_path(@micropost) %> | <%= link_to 'Back', microposts_path %>
 </div>

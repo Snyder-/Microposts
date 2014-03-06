@@ -1,22 +1,49 @@
 body {
   background-color: lightslategray;
   color: #333;
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: "source code pro", arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
-
+tr{
+  background-color: lightgoldenrodyellow;
+}
+.title {
+  position: relative;
+  left: 500px;
+  top: 65px;
+}
 table {
+  position: absolute;
+  left: 300px;
+  top: 150px;
+  background-color: lightslategray;
 }
 .content {
   width: 500px;
 }
+.new-micro {
+  position: absolute;
+  left: 320px;
+  top: 155px;
+}
+.show-edit-back{
+  position: relative;
+  left: 300px;
+  top: 150px;
+}
 ol, ul, td, th {
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: "consolas", arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
   border: solid;
   border-width: 1px;
+}
+th {
+  color: orange;
+}
+td {
+  color: darkslategray;
 }
 
 pre {
@@ -44,6 +71,9 @@ div {
 
 #notice {
   color: green;
+  position: absolute;
+  left: 320px;
+  top: 30px;
 }
 
 .field_with_errors {

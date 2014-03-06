@@ -7,8 +7,9 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
 <%= yield %>
-
+<% if notice %>
+<div id="error_explanation"><%= notice %></div>
+<% end %>
 </body>
 </html>

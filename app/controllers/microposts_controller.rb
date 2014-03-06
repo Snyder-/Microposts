@@ -11,6 +11,9 @@ class MicropostsController < ApplicationController
   # GET /microposts/1.json
   def show
     @user = @micropost.user
+    if @user == nil
+      redirect_to root_path, notice: 'No user exists!'
+    end
   end
 
   # GET /microposts/new

@@ -6,7 +6,7 @@ gem 'thin'
 gem 'dalli'
 gem 'devise'
 group :development do
-  gem 'pg'
+  gem 'sqlite3'
 end
 
 gem 'sass-rails', '4.0.1'

@@ -16,7 +16,7 @@
     <data-source source="LOCAL" name="Rails wineclub: production" uuid="84dab344-5f8f-4fbb-bd55-f18b54254638">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:db/production.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:postgresql:db/production</jdbc-url>
       <libraries />
     </data-source>
   </component>

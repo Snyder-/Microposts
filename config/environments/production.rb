@@ -1,7 +1,6 @@
 Wineclub::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
   # Log detail is configurable on the server
-  config.log_level = ENV['LOG_LEVEL'] ? ENV['LOG_LEVEL'].to_sym : ('info').to_sym
   # Code is not reloaded between requests.
   config.cache_classes = true
 

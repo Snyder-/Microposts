@@ -3,4 +3,10 @@
   <data-source source="LOCAL" name="Rails wineclub: development" uuid="0c08ea22-147e-4fd5-bcfb-0dc54bd29d50">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails wineclub: test" uuid="5bfc4c10-f214-4819-ba3e-498de4609b41">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails wineclub: production" uuid="84dab344-5f8f-4fbb-bd55-f18b54254638">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>

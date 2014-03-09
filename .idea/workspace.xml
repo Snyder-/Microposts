@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a3af979-0593-42c9-a8aa-9a949000f76d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/microposts/index.html.erb" afterPath="$PROJECT_DIR$/app/views/microposts/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wineclub.iws" />
@@ -92,7 +88,7 @@
       <file leaf-file-name="scaffolds.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="0.3426396" vertical-offset="0" max-vertical-offset="2205">
+            <state line="8" column="21" selection-start="196" selection-end="196" vertical-scroll-proportion="0.30456853" vertical-offset="0" max-vertical-offset="2205">
               <folding />
             </state>
           </provider>
@@ -821,7 +817,11 @@
       <created>1394377723574</created>
       <updated>1394377723574</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fooling around with CSS">
+      <created>1394381114826</created>
+      <updated>1394381114826</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -900,7 +900,8 @@
     <MESSAGE value="Improve gemfile&#10;" />
     <MESSAGE value="ready for production&#10;" />
     <MESSAGE value="fixed page titles" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed page titles" />
+    <MESSAGE value="fooling around with CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="fooling around with CSS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1189,7 +1190,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="210" selection-end="210" vertical-scroll-proportion="0.3426396" vertical-offset="0" max-vertical-offset="2205">
+        <state line="8" column="21" selection-start="196" selection-end="196" vertical-scroll-proportion="0.30456853" vertical-offset="0" max-vertical-offset="2205">
           <folding />
         </state>
       </provider>

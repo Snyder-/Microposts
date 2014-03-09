@@ -111,9 +111,10 @@ div {
   }
 }
 #navbar {
-  position: relative;
-  right: 360px;
-  top: -100px;
+  position: fixed;
+  top: 0px;
+  width: 1280px;
+  left: 0px;
 }
 
 #navbar ul {

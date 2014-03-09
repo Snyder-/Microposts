@@ -27,6 +27,9 @@
 </div>
 
 <body id="content">
+<div id="appnotice"><% if notice %><%= notice %><% end %>
+<% if alert %><%= alert %><% end %></div>
+
 <%= yield %>
 </body>
 </div>

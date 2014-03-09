@@ -77,4 +77,13 @@ Wineclub::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  #Sending email on the production side
+  config.action_mailer.default_url_options = { :host => 'sms-micropost.herokuapp.com' }
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+      :address => "127.0.0.1",
+      :port    => 1025,
+      :domain  => 'comcast.net'
+  }
 end

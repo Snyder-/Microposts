@@ -12,6 +12,9 @@
   <ul>
     <% if user_signed_in? %>
     <div id="avatar"><%= link_to image_tag("sean.jpg", :size => '25x25'), edit_user_registration_path %></div>
+    <% unless current_user.microposts.size == 0 %>
+    <li id="avaposts">Total Posts:<%= link_to current_user.microposts.size, user_path(current_user.id) %></li>
+    <% end %>
     <li><%= link_to current_user.name, user_path(current_user.id) %></li>
     <li><%= link_to "Log Out", destroy_user_session_path, method: :delete %></li>
     <% else %>

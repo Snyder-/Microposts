@@ -11,7 +11,8 @@
 <div id="navbar">
   <ul>
     <% if user_signed_in? %>
-    <li><%= link_to current_user.name, edit_user_registration_path%></li>
+    <div id="avatar"><%= link_to image_tag("sean.jpg", :size => '25x25'), edit_user_registration_path %></div>
+    <li><%= link_to current_user.name, user_path(current_user.id) %></li>
     <li><%= link_to "Log Out", destroy_user_session_path, method: :delete %></li>
     <% else %>
     <li><%= link_to "Sign Up", new_user_registration_path %></li>

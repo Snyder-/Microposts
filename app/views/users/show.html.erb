@@ -1,8 +1,11 @@
 <div class="center hero-unit">
 
 <p>
-  <strong>Username:</strong>
-  <%= @user.name.titleize %>
+  <% provide(:title, @user.name) %>
+  <h1>
+    <%= gravatar_for @user %>
+    <%= @user.name.titleize %>
+  </h1>
 </p>
 
 <p>

@@ -1,13 +1,6 @@
+<div class="center hero-unit">
 <% title "- #{@user.name}'s Micro" %>
-<% if alert %>
-    <div id="success_explanation">
-      <h2>Success:</h2>
 
-      <ul>
-        <li><%= alert %></li>
-      </ul>
-    </div>
-<% end %>
 <h1 class="title"><%= @user.name %> said...</h1>
 <table>
   <thead>
@@ -30,4 +23,5 @@
   <% else %>
     <%= link_to 'Back', microposts_path %>
   <% end %>
+</div>
 </div>

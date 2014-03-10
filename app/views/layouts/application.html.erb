@@ -6,38 +6,19 @@
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
-</head><body>
-<header class="navbar navbar-fixed-top navbar-inverse">
-  <div class="navbar-inner">
+  <%= render 'layouts/shim' %>
+</head>
+  <body>
+    <%= render 'layouts/headers' %>
     <div class="container">
-      <%= link_to image_tag("sean.jpg", size: '30x30'), posts_path, id: "logo" %>
-      <nav>
-        <ul class="nav pull-right">
-          <% if user_signed_in? %>
-            <% unless current_user.microposts.size == 0 %>
-              <li>Total Posts: <%= link_to current_user.microposts.size, user_path(current_user.id)%></li>
-            <% end %>
-            <li><%= link_to image_tag("sean.jpg", :size => '25x25', :id => 'avatar'), edit_user_registration_path %></li>
-            <li><%= link_to current_user.name, user_path(current_user.id), :class => "btn btn-small btn-info" %></li>
-            <li><%= link_to "Log Out", destroy_user_session_path, method: :delete, class: "btn btn-small btn-primary" %></li>
-          <% else %>
-            <li><%= link_to "Sign Up", new_user_registration_path, class: "btn btn-small btn-primary" %></li>
-            <li><%= link_to "Log in", new_user_session_path, class: "btn btn-small btn-primary" %></li>
-          <% end %>
-          <li><%= link_to "User List", users_path, class: "btn btn-small btn-primary" %></li>
-          <li><%= link_to "All Posts", posts_path, class: "btn btn-small btn-primary" %></li>
-        </ul>
-      </nav>
+      <%= yield %>
+      <% if notice %>
+    <div class="alert alert-success">
+      <a class="close" data-dismiss="alert">x</a>
+      <%= notice %>
     </div>
-  </div>
-</header>
-<div class="container">
-  <%= yield %>
-  <div class="btn btn">
-    <div class="span">
-    <% if notice %>
-      <div class="alert alert-success"><%= notice %></div>
-    <% end %>
+      <% end %>
+      <%= render 'layouts/footer' %>
   </div>
 </div>
 </div>

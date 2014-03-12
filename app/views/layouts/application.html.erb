@@ -10,18 +10,32 @@
 </head>
   <body>
     <%= render 'layouts/headers' %>
-    <div class="container">
-      <%= yield %>
-      <% if notice %>
-    <div class="alert alert-success">
-      <a class="close" data-dismiss="alert">x</a>
-      <%= notice %>
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span2">
+          <strong>Left Sidebar</strong>
+        </div>
+        <div class="span7">
+          <%= yield %>
+          <% if notice %>
+            <div class="alert alert-success">
+            <a class="close" data-dismiss="alert">x</a>
+          <%= notice %>
+            </div>
+          <% elsif alert %>
+              <div class="alert alert-danger">
+                <a class="close" data-dismiss="alert">x</a>
+                <%= alert %>
+              </div>
+          <% end %>
+          <%= render 'layouts/footer' %>
+        </div>
+          <div class="span3">
+          <strong>Right Sidebar</strong>
+          </div>
+      </div>
     </div>
-      <% end %>
-      <%= render 'layouts/footer' %>
-  </div>
-</div>
-</div>
-</div>
-</body>
+      </div>
+    </div>
+  </body>
 </html>

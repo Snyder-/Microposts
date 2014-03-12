@@ -1,23 +1,22 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="navbar-inner">
+    <%= link_to "Microposter", posts_path, id: "logo", class: "span2 offset5" %>
     <div class="container">
-      <%= link_to "Microposter", posts_path, id: "logo" %>
       <nav>
-        <ul class="nav pull-right">
+          <div class="btn-toolbar pull-right">
+          <div class="btn-group">
           <% if user_signed_in? %>
-              <% unless current_user.microposts.size == 0 %>
-                  <li><%= link_to "Total Posts: #{current_user.microposts.size}", user_path(current_user.id)%></li>
-              <% end %>
-              <li class="nav navbar-text"><%= mini_gravatar_for current_user %></li>
-              <li><%= link_to current_user.name, user_path(current_user.id), :class => "btn btn-small btn-info" %></li>
-              <li><%= link_to "Log Out", destroy_user_session_path, method: :delete, class: "btn btn-small btn-primary" %></li>
+          <%= mini_gravatar_for current_user %>
+          <%= link_to current_user.name, user_path(current_user.id), :class => "btn btn-small btn-primary" %>
+          <%= link_to "Log Out", destroy_user_session_path, method: :delete, class: "btn btn-small btn-primary" %>
           <% else %>
-              <li><%= link_to "Sign Up", new_user_registration_path, class: "btn btn-small btn-primary" %></li>
-              <li><%= link_to "Log in", new_user_session_path, class: "btn btn-small btn-primary" %></li>
+          <%= link_to "Sign Up", new_user_registration_path, class: "btn btn-small btn-primary" %>
+          <%= link_to "Log in", new_user_session_path, class: "btn btn-small btn-primary" %>
           <% end %>
-          <li><%= link_to "User List", users_path, class: "btn btn-small btn-primary" %></li>
-          <li><%= link_to "All Posts", posts_path, class: "btn btn-small btn-primary" %></li>
-        </ul>
+          <%= link_to "User List", users_path, class: "btn btn-small btn-primary" %>
+          <%= link_to "All Posts", posts_path, class: "btn btn-small btn-primary" %>
+          </div>
+          </div>
       </nav>
     </div>
   </div>

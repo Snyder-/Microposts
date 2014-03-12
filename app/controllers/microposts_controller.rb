@@ -13,7 +13,7 @@ class MicropostsController < ApplicationController
   def show
     @user = @micropost.user
     if @user == nil
-      redirect_to edit_micropost_path, notice: 'No user exists! Please change User ID'
+      redirect_to edit_micropost_path, alert: 'No user exists! Please change User ID'
     end
   end
 
@@ -24,13 +24,16 @@ class MicropostsController < ApplicationController
 
   # GET /microposts/1/edit
   def edit
+    if @micropost.user_id != current_user.id
+      redirect_to root_path, alert: 'Cannot edit other peoples posts'
+    end
   end
 
   # POST /microposts
   # POST /microposts.json
   def create
     @micropost = Micropost.new(micropost_params)
-
+    @micropost.user_id = current_user.id
     respond_to do |format|
       if @micropost.save
         format.html { redirect_to @micropost, notice: 'Micropost was successfully created.' }
@@ -47,7 +50,7 @@ class MicropostsController < ApplicationController
   def update
     respond_to do |format|
       if @micropost.update(micropost_params)
-        format.html { redirect_to @micropost, alert: 'Micropost was successfully updated.' }
+        format.html { redirect_to @micropost, notice: 'Micropost was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }

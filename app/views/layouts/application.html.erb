@@ -8,26 +8,28 @@
   <%= csrf_meta_tags %>
   <%= render 'layouts/shim' %>
 </head>
-<body class="col-xs-12">
-  <%= render 'layouts/headers' %>
 
-  <div class="container jumbotron">
-          <%= yield %>
-          <% if notice %>
+<body class="container">
+  <div>
+    <%= render 'layouts/headers' %>
+  </div>
 
-            <div class="alert alert-success">
-            <a class="close" data-dismiss="alert">x</a>
-          <%= notice %>
-            </div>
-          <% elsif alert %>
-              <div class="alert alert-danger">
-                <a class="close" data-dismiss="alert">x</a>
-                <%= alert %>
-              </div>
-          <% end %>
+  <div class="jumbotron">
+    <%= yield %>
+    <% if notice %>
+      <div class="alert alert-success">
+      <a class="close" data-dismiss="alert">x</a>
+    <%= notice %>
+      </div>
+    <% elsif alert %>
+      <div class="alert alert-danger">
+      <a class="close" data-dismiss="alert">x</a>
+    <%= alert %>
+      </div>
+    <% end %>
+  </div>
+  <div>
+    <%= render 'layouts/footer' %>
   </div>
 </body>
-<footer class="col-xs-12">
-  <%= render 'layouts/footer' %>
-</footer>
 </html>

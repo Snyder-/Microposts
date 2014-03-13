@@ -1,20 +1,16 @@
-<footer class="navbar">
+<footer>
 
-  <div class="container">
-    <nav>
-      <div class="btn btn-toolbar pull-left">
+      <div class="col-xs-6">
         <div class="btn-group">
         <%= link_to "Microposter", posts_path, id: "logo", class: "lead" %> <sub> created by: Sean M. Snyder</sub>
         </div>
       </div>
-      <div class="btn btn-toolbar pull-right">
-        <div>
-          <button>Go to: </button>
-          <%= link_to "Codeschool", "http://www.codeschool.com" %> |
-          <%= link_to "Ruby Language", "http://www.ruby-lang.org" %> |
-          <%= link_to "Ruby Rogues", "http://www.rubyrogues.com" %>
-        </div>
+
+      <div class="col-xs-6 text-right">
+          <span class="label label-info"> Go to: </span>
+          <span class="label label-warning"><%= link_to "Codeschool", "http://www.codeschool.com" %></span>
+          <span class="label label-danger"><%= link_to "Ruby Language", "http://www.ruby-lang.org" %></span>
+          <span class="label label-success"><%= link_to "Ruby Rogues", "http://www.rubyrogues.com" %></span>
       </div>
-    </nav>
-  </div>
+
 </footer>

@@ -838,72 +838,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/assets\/application-23f4d4d975509dc1183b79e0db2ebb97.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/assets\/application-23f4d4d975509dc1183b79e0db2ebb97.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/public\/assets\/application-5c941aee5ed18e33253bf7368b822887.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/assets\/application-5c941aee5ed18e33253bf7368b822887.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/public\/assets\/application-88ef752770830a29105a24babec8f25b.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/assets\/application-88ef752770830a29105a24babec8f25b.js",
-		"outputAbbreviatedPath": "\/public\/assets\/min\/application-88ef752770830a29105a24babec8f25b-ck.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/public\/assets\/application-bcd5563e111ddd3dc1f581194686564d.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/assets\/application-bcd5563e111ddd3dc1f581194686564d.js",
-		"outputAbbreviatedPath": "\/public\/assets\/min\/application-bcd5563e111ddd3dc1f581194686564d-ck.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/public\/assets\/application-d80f1fcce2d339c4c1bac12bb81682f9.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/assets\/application-d80f1fcce2d339c4c1bac12bb81682f9.js",
-		"outputAbbreviatedPath": "\/public\/assets\/min\/application-d80f1fcce2d339c4c1bac12bb81682f9-ck.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/public\/assets\/rails-104efeb7c8558c443d8aae2e5e146683.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 13036,
-		"inputAbbreviatedPath": "\/public\/assets\/rails-104efeb7c8558c443d8aae2e5e146683.png",
-		"outputAbbreviatedPath": "\/public\/assets\/rails-104efeb7c8558c443d8aae2e5e146683.png",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/public\/assets\/sean-e336895b7e3c64915c2c9a55977c4077.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 270262,
-		"inputAbbreviatedPath": "\/public\/assets\/sean-e336895b7e3c64915c2c9a55977c4077.jpg",
-		"outputAbbreviatedPath": "\/public\/assets\/sean-e336895b7e3c64915c2c9a55977c4077.jpg",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/source\/bootstrap\/alerts.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -2054,25 +1988,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/bootstrap\/responsive-utilities.less",
 		"outputAbbreviatedPath": "\/source\/css\/responsive-utilities.css",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/source\/bootstrap\/rows.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/source\/bootstrap\/rows.less",
-		"outputAbbreviatedPath": "\/source\/css\/rows.css",
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"relativeURLS": 0,

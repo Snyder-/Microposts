@@ -1,6 +1,6 @@
 <% title " - Home" %>
-<div class="show hero-unit">
-  <h1 class="lead">Gossip</h1>
+<div class="container-fluid">
+  <h1 class="col-sm-offset-5 lead">Gossip</h1>
   <br>
   <table class="table table-striped">
   <thead>
@@ -25,8 +25,8 @@
   </tbody>
 </table>
 <% if user_signed_in? %>
-<strong class="btn btn-lg btn-small"><%= link_to 'New Micropost', new_micropost_path, {confirm: 'Are you sure?'} %></strong>
+<button class="btn btn-default"><%= link_to 'New Micropost', new_micropost_path, {confirm: 'Are you sure?'} %></button>
 <% else %>
-<strong class="btn btn-lg btn-small"><%= link_to "Sign up", new_user_registration_path %> or <%= link_to "Log in", new_user_session_path %> to begin posting ...</strong>
+<button class="btn btn-default"><%= link_to "Sign up", new_user_registration_path %> or <%= link_to "Log in", new_user_session_path %> to begin posting ...</button>
 <% end %>
 </div>

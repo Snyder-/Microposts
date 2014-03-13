@@ -1,13 +1,20 @@
-<footer class="footer">
-  <small>
-    <a href="http://www.rubyrogues.com/">Microposter</a>
-    by Sean M. Snyder
-  </small>
-  <nav>
-    <ul>
-      <li><%= link_to "About",   '#' %></li>
-      <li><%= link_to "Contact", '#' %></li>
-      <li><a href="http://news.railstutorial.org/">News</a></li>
-    </ul>
-  </nav>
+<footer class="navbar">
+
+  <div class="container">
+    <nav>
+      <div class="btn btn-toolbar pull-left">
+        <div class="btn-group">
+        <%= link_to "Microposter", posts_path, id: "logo", class: "lead" %> <sub> created by: Sean M. Snyder</sub>
+        </div>
+      </div>
+      <div class="btn btn-toolbar pull-right">
+        <div>
+          <button>Go to: </button>
+          <%= link_to "Codeschool", "http://www.codeschool.com" %> |
+          <%= link_to "Ruby Language", "http://www.ruby-lang.org" %> |
+          <%= link_to "Ruby Rogues", "http://www.rubyrogues.com" %>
+        </div>
+      </div>
+    </nav>
+  </div>
 </footer>

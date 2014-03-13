@@ -25,8 +25,8 @@
   </tbody>
 </table>
 <% if user_signed_in? %>
-<button class="btn btn-default"><%= link_to 'New Micropost', new_micropost_path, {confirm: 'Are you sure?'} %></button>
+<div class="btn btn-default"><%= link_to 'New Micropost', new_micropost_path, {confirm: 'Are you sure?'} %></div>
 <% else %>
-<button class="btn btn-default"><%= link_to "Sign up", new_user_registration_path %> or <%= link_to "Log in", new_user_session_path %> to begin posting ...</button>
+<div class="btn btn-default"><%= link_to "Sign up", new_user_registration_path %> or <%= link_to "Log in", new_user_session_path %> to begin posting ...</div>
 <% end %>
 </div>

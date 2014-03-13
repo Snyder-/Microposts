@@ -8,13 +8,10 @@
   <%= csrf_meta_tags %>
   <%= render 'layouts/shim' %>
 </head>
-  <body>
-
+<body class="col-xs-12">
   <%= render 'layouts/headers' %>
 
-<div class="container jumbotron">
-  <p></p>
-  <div class="col-lg-7">
+  <div class="container jumbotron">
           <%= yield %>
           <% if notice %>
 
@@ -28,12 +25,9 @@
                 <%= alert %>
               </div>
           <% end %>
-
   </div>
-</div>
-
-  <%= render 'layouts/footer' %>
 </body>
+<footer class="col-xs-12">
+  <%= render 'layouts/footer' %>
+</footer>
 </html>
-
-

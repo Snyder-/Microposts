@@ -3,7 +3,7 @@
     <div class="container">
       <nav>
         <div class="pull-left btn">
-        <%= link_to "Microposter", posts_path, id: "logo", class: "lead" %>
+        <%= link_to "Microposter", posts_path, id: "logo", class: "whiten lead" %>
         </div>
           <div class="btn btn-toolbar pull-right">
           <div class="btn-group">
@@ -11,7 +11,7 @@
                 <!-- Split button -->
                 <div class="btn-group">
 
-                  <button type="button" class="btn btn-primary"><%= mini_gravatar_for current_user%> <%= current_user.name %></button>
+                  <div type="button" class="btn btn-primary"><%= link_to mini_gravatar_for(current_user), user_path(current_user.id) %> <%= current_user.name %></div>
                   <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
                     <span class="caret"></span>
                     <span class="sr-only">Toggle Dropdown</span>

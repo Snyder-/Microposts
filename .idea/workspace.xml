@@ -2,68 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a3af979-0593-42c9-a8aa-9a949000f76d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/alerts.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/background-variant.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/border-radius.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/center-block.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/clearfix.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/forms.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/gradients.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/grid-framework.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/grid.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/hide-text.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/image.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/labels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/list-group.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/nav-divider.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/nav-vertical-align.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/opacity.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/pagination.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/panels.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/progress-bar.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/reset-filter.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/resize.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/responsive-embed.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/responsive-visibility.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/rows.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/size.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/tab-focus.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/table-row.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/text-emphasis.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/text-overflow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/bootstrap/mixins/vendor-prefixes.less" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/styles.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_headers.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_headers.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/bootstrap/badges.less" afterPath="$PROJECT_DIR$/source/bootstrap/badges.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/bootstrap/bootstrap.less" afterPath="$PROJECT_DIR$/source/bootstrap/bootstrap.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/bootstrap/button-groups.less" afterPath="$PROJECT_DIR$/source/bootstrap/button-groups.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/bootstrap/carousel.less" afterPath="$PROJECT_DIR$/source/bootstrap/carousel.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/bootstrap/code.less" afterPath="$PROJECT_DIR$/source/bootstrap/code.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/bootstrap/component-animations.less" afterPath="$PROJECT_DIR$/source/bootstrap/component-animations.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/microposts/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/microposts/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/bootstrap/forms.less" afterPath="$PROJECT_DIR$/source/bootstrap/forms.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/microposts/index.html.erb" afterPath="$PROJECT_DIR$/app/views/microposts/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/bootstrap/jumbotron.less" afterPath="$PROJECT_DIR$/source/bootstrap/jumbotron.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/bootstrap/labels.less" afterPath="$PROJECT_DIR$/source/bootstrap/labels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/bootstrap/list-group.less" afterPath="$PROJECT_DIR$/source/bootstrap/list-group.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/bootstrap/mixins.less" afterPath="$PROJECT_DIR$/source/bootstrap/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/bootstrap/modals.less" afterPath="$PROJECT_DIR$/source/bootstrap/modals.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/bootstrap/navbar.less" afterPath="$PROJECT_DIR$/source/bootstrap/navbar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/bootstrap/panels.less" afterPath="$PROJECT_DIR$/source/bootstrap/panels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/bootstrap/popovers.less" afterPath="$PROJECT_DIR$/source/bootstrap/popovers.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/bootstrap/progress-bars.less" afterPath="$PROJECT_DIR$/source/bootstrap/progress-bars.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/bootstrap/responsive-utilities.less" afterPath="$PROJECT_DIR$/source/bootstrap/responsive-utilities.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/bootstrap/scaffolding.less" afterPath="$PROJECT_DIR$/source/bootstrap/scaffolding.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/styles.less" afterPath="$PROJECT_DIR$/source/styles.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/bootstrap/tables.less" afterPath="$PROJECT_DIR$/source/bootstrap/tables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/bootstrap/type.less" afterPath="$PROJECT_DIR$/source/bootstrap/type.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/users_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/users_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/bootstrap/variables.less" afterPath="$PROJECT_DIR$/source/bootstrap/variables.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wineclub.iws" />
@@ -757,12 +695,12 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273639" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39200762" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39200762" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273639" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32485875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980143" sideWeight="0.49956933" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28675282" sideWeight="0.50043064" order="0" side_tool="true" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28675282" sideWeight="0.50043064" order="0" side_tool="true" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39885223" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3304721" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />

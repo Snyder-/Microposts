@@ -11,8 +11,8 @@
                 <!-- Split button -->
                 <div class="btn-group">
 
-                  <div type="button" class="btn btn-primary"><%= link_to mini_gravatar_for(current_user), user_path(current_user.id) %> <%= current_user.name %></div>
-                  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  <div type="button" class="btn btn-primary hidden-xs"><%= link_to mini_gravatar_for(current_user), user_path(current_user.id) %> <%= current_user.name %></div>
+                  <button type="button" class="btn btn-primary dropdown-toggle hidden-xs" data-toggle="dropdown">
                     <span class="caret"></span>
                     <span class="sr-only">Toggle Dropdown</span>
                   </button>
@@ -25,13 +25,13 @@
                     <li><%= link_to "New Post", new_micropost_path(current_user.id) %></li>
                   </ul>
                 </div>
-          <%= link_to "Log Out", destroy_user_session_path, method: :delete, class: "btn btn-primary" %>
+          <%= link_to "Log Out", destroy_user_session_path, method: :delete, class: "btn btn-primary hidden-xs" %>
           <% else %>
-          <%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary" %>
-          <%= link_to "Log in", new_user_session_path, class: "btn btn-primary" %>
+          <%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary hidden-xs" %>
+          <%= link_to "Log in", new_user_session_path, class: "btn btn-primary hidden-xs" %>
           <% end %>
-          <%= link_to "User List", users_path, class: "btn btn-primary" %>
-          <%= link_to "All Posts", posts_path, class: "btn btn-primary" %>
+          <%= link_to "User List", users_path, class: "btn btn-primary hidden-sm hidden-xs" %>
+          <%= link_to "All Posts", posts_path, class: "btn btn-primary hidden-sm hidden-xs" %>
 
         </div>
       </nav>

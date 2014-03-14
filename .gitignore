@@ -20,3 +20,4 @@
 
 # Ignore codekit .sass/cache files
 /app/assets/stylesheets/.sass-cache
+/app/assets/css

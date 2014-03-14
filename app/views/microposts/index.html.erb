@@ -1,6 +1,12 @@
 <% title " - Home" %>
 <div class="container-fluid">
-  <h1 class="col-sm-offset-5 lead">Gossip</h1>
+  <div class="jumbotron">
+  <h1 class="container text-center lead">Cannon Fodder</h1>
+    <div class="col-xs-3"></div>
+    <h3 class="col-xs-6 lead">Everyone is talking. Is it about you? Is it something you need to know?
+    Let us have it. Fire away!</h3>
+    <div class="col-xs-3"></div>
+  </div>
   <br>
   <table class="table table-striped table-hover">
   <thead>
@@ -15,18 +21,26 @@
           <tr>
         <td class="content"><%= micropost.content %></td>
         <td><%= @user.find(micropost.user_id).name%></td>
-        <td><%= link_to 'Show', micropost %>
+        <td><%= link_to 'Show', micropost, class: "btn btn-xs btn-primary" %>
         <% if user_signed_in? && micropost.user_id == current_user.id %>
-        <%= link_to 'Edit', edit_micropost_path(micropost) %>
-        <%= link_to 'Destroy', micropost, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <%= link_to 'Edit', edit_micropost_path(micropost), class: "btn btn-xs btn-primary" %>
+        <%= link_to 'Destroy', micropost, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-xs btn-danger" %></td>
         <% end %>
       </tr>
     <% end %>
   </tbody>
 </table>
+  <div class="container">
 <% if user_signed_in? %>
-<div class="btn btn-default"><%= link_to 'New Micropost', new_micropost_path, {confirm: 'Are you sure?'} %></div>
-<% else %>
-<div class="btn btn-default"><%= link_to "Sign up", new_user_registration_path %> or <%= link_to "Log in", new_user_session_path %> to begin posting ...</div>
-<% end %>
+    <div class="col-xs-4"><%= link_to "New Micropost", new_micropost_path, class: "btn btn-default"%></div>
+    <div class="col-xs-4"></div>
+    <div class="col-xs-4"></div>
+  </div>
 </div>
+<% else %>
+    <div class="col-xs-3"></div>
+    <div class="col-xs-6 label-lg label-primary lead"><%= link_to "Sign up", new_user_registration_path, class: 'label label-info whiten'%> or <%= link_to "Log in", new_user_session_path, class: "label label-info whiten" %> to begin posting ...</div>
+    <div class="col-xs-3"></div>
+  </div>
+</div>
+<% end %>

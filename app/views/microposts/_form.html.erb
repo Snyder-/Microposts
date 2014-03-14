@@ -1,21 +1,42 @@
-<%= form_for(@micropost) do |f| %>
-  <% if @micropost.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@micropost.errors.count, "error") %> prohibited this micropost from being saved:</h2>
-
-      <ul>
-      <% @micropost.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
+<div class="container">
+  <div class="row">
+    <%= form_for(@micropost) do |f| %>
+      <% if @micropost.errors.any? %>
+        <div id="error_explanation" class="alert alert-danger lead">
+          <a class="close" data-dismiss="alert">
+            x
+          </a>
+          <h2>
+            <%= pluralize(@micropost.errors.count, "Error") %> in Post
+          </h2>
+          <ul>
+            <% @micropost.errors.full_messages.each do |msg| %>
+          <li>
+            <%= msg %></li>
+          </ul>
+        </div>
+            <% end %>
       <% end %>
-      </ul>
-    </div>
-  <% end %>
+  </div>
 
-  <div class="field">
-    <%= f.label :content %><br>
-    <%= f.text_area :content %>
+  <div class="row">
+    <div class="col-xs-3"></div>
+    <div class="btn btn-primary col-xs-6">
+      <%= f.label :content%><br>
+      <%= f.text_area(:content, size: "5x20", class: "col-xs-12 text-black")%>
+    </div>
+    <div class="col-xs-3"></div>
+   </div>
+</br>
+  <div class="row">
+    <div class="col-xs-3"></div>
+    <div class="actions col-xs-4 text-center">
+      <%= f.submit class: "btn btn-default col-xs-12" %>
+      <% end %>
+    </div>
+
+    <div class="col-xs-2">
+      <%= link_to 'Cancel', microposts_path, class: "col-xs-12 btn btn-danger" %>
+    </div>
   </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
-<% end %>
+</div>

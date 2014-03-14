@@ -18,7 +18,7 @@
 
 </table>
 <div>
-  <% if user_signed_in? %>
+  <% if user_signed_in? && @micropost.user_id == current_user.id %>
     <%= link_to 'Edit', edit_micropost_path(@micropost) %> | <%= link_to 'Back', microposts_path %>
   <% else %>
     <%= link_to 'Back', microposts_path %>

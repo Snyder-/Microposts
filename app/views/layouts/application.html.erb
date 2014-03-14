@@ -14,15 +14,19 @@
     <%= render 'layouts/headers' %>
   </div>
 
-  <div class="jumbotron">
+  <div class="container jumbotron">
     <%= yield %>
     <% if notice %>
-      <div class="alert alert-success">
+      </br>
+      <div class="col-xs-4"></div>
+      <div class="col-xs-3 text-center alert alert-success">
       <a class="close" data-dismiss="alert">x</a>
     <%= notice %>
       </div>
     <% elsif alert %>
-      <div class="alert alert-danger">
+      </br>
+      <div class="col-xs-4"></div>
+      <div class="acol-xs-3 text-center alert alert-danger">
       <a class="close" data-dismiss="alert">x</a>
     <%= alert %>
       </div>

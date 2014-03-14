@@ -1,4 +1,17 @@
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+.label-lg {
+  display: inline;
+  padding: 1em 1em 1em;
+  font-size: 100%;
+  font-weight: bold;
+  line-height: 1;
+  color: #ffffff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+
 .redBorder {
   border: solid;
   border-color: red;
@@ -889,7 +902,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
-  background-color: #ffffff;
+  background-color: gainsboro;
 }
 input,
 button,
@@ -1142,6 +1155,12 @@ mark,
 }
 .whiten{
   color: #ffffff;
+}
+.text-black {
+  color: #000000;
+}
+.text-darkgray {
+  color: slategray;
 }
 .text-primary {
   color: #428bca;

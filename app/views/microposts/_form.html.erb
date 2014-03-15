@@ -20,23 +20,36 @@
   </div>
 
   <div class="row">
-    <div class="col-xs-3"></div>
-    <div class="btn btn-primary col-xs-6">
-      <%= f.label :content%><br>
-      <%= f.text_area(:content, size: "5x20", class: "col-xs-12 text-black")%>
+
+    <div class="col-xs-1">
     </div>
-    <div class="col-xs-3"></div>
-   </div>
-</br>
-  <div class="row">
-    <div class="col-xs-3"></div>
-    <div class="actions col-xs-4 text-center">
-      <%= f.submit class: "btn btn-default col-xs-12" %>
+
+    <div class="btn btn-primary col-xs-12">
+      <%= f.label :Post%><br>
+      <%= f.text_area(:content, size: '10x10',class: "col-xs-12 text-black")%>
+    </div>
+
+    <div class="col-xs-1">
+    </div>
+
+  </div>
+
+<br>
+
+  <div class="row-fluid">
+
+    <div class="col-xs-3">
+      <%= f.submit :Post, class: "col-xs-12 btn btn-md btn-primary" %>
       <% end %>
     </div>
 
-    <div class="col-xs-2">
-      <%= link_to 'Cancel', microposts_path, class: "col-xs-12 btn btn-danger" %>
+    <div class="col-xs-6">
     </div>
+
+    <div class="col-xs-3">
+      <%= link_to 'Cancel', microposts_path, class: "btn btn-danger" %>
+    </div>
+
   </div>
+
 </div>

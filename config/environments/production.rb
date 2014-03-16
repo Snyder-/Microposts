@@ -81,9 +81,13 @@ Wineclub::Application.configure do
   #Sending email on the production side
   config.action_mailer.default_url_options = { :host => 'sms-micropost.herokuapp.com' }
   config.action_mailer.delivery_method = :smtp
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.default :charset => "utf-8"
   config.action_mailer.smtp_settings = {
-      :address => "127.0.0.1",
-      :port    => 1025,
-      :domain  => 'comcast.net'
+      :address   => "smtp.mandrillapp.com",
+      :port      => 587,
+      :user_name => ENV["sean.snyder@snhu.edu"],
+      :password  => ENV["MANDRILL_API"]
   }
 end

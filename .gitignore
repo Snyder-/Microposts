@@ -22,3 +22,5 @@
 /app/assets/stylesheets/.sass-cache
 /app/assets/css
 /.idea
+# Ignore application configuration
+/config/application.yml

@@ -19,8 +19,9 @@
 /public/assets
 
 # Ignore codekit .sass/cache files
-/app/assets/stylesheets/.sass-cache
+/app/assets/stylesheets/.sass-cache/*
 /app/assets/css
 /.idea
+/.codekit-cache
 # Ignore application configuration
 /config/application.yml

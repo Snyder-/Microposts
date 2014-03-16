@@ -14,6 +14,7 @@ gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
 gem 'devise'
 gem 'bootstrap-sass', '3.1.1'
+gem 'font-awesome-rails'
 
 group :doc do
   gem 'sdoc', '0.3.20', require: false

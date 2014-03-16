@@ -1,39 +1,56 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
 
-    <div class="container">
-      <nav class="row-fluid">
-        <p></p>
-        <div class="col-xs-6">
+  <div class="container">
+    <nav class="row-fluid">
+      <p></p>
+
+      <div class="col-xs-6">
         <%= link_to "Microposter", posts_path, id: "logo", class: "whiten lead" %>
-        </div>
-        <div class="btn-group pull-right">
-          <% if user_signed_in? %>
-                <!-- Split button -->
-                <div class="btn-group">
+      </div>
+      <div class="btn-group pull-right">
+        <% if user_signed_in? %>
+            <!-- Split button -->
+            <div class="btn-group">
 
-                  <div type="button" class="btn btn-primary hidden-xs"><%= link_to mini_gravatar_for(current_user), user_path(current_user.id) %> <%= current_user.name %></div>
-                  <button type="button" class="btn btn-primary dropdown-toggle hidden-xs" data-toggle="dropdown">
-                    <span class="caret"></span>
-                    <span class="sr-only">Toggle Dropdown</span>
-                  </button>
-                  <ul class="dropdown-menu" role="menu">
-                    <li class="container col-xs-10"><%= link_to med_gravatar_for(current_user), "http://www.gravatar.com"%></li>
-                    <li class="divider"></li>
-                    <li><%= link_to "My Account", edit_user_registration_path(current_user.id) %></li>
-                    <li><%= link_to "Posts", user_path(current_user.id) %></li>
-                    <li class="divider"></li>
-                    <li><%= link_to "New Post", new_micropost_path(current_user.id) %></li>
-                  </ul>
-                </div>
-          <%= link_to "Log Out", destroy_user_session_path, method: :delete, class: "btn btn-primary hidden-xs" %>
-          <% else %>
-          <%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary hidden-xs" %>
-          <%= link_to "Log in", new_user_session_path, class: "btn btn-primary hidden-xs" %>
-          <% end %>
-          <%= link_to "User List", users_path, class: "btn btn-primary hidden-sm hidden-xs" %>
-          <%= link_to "All Posts", posts_path, class: "btn btn-primary hidden-sm hidden-xs" %>
+              <%= link_to user_path(current_user.id), class: "btn btn-primary hidden-xs" do %>
+                  <%= mini_gravatar_for(current_user) %>
+                  <i><%= current_user.name %></i>
+              <% end %>
+              <button type="button" class="btn btn-primary dropdown-toggle hidden-xs" data-toggle="dropdown">
+                <span><span><i class="fa fa-cog fa-spin"></i></span></span>
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li class="container col-xs-10"><%= link_to med_gravatar_for(current_user), "http://www.gravatar.com" %></li>
+                <li class="divider"></li>
+                <li><%= link_to " My Account", edit_user_registration_path(current_user.id), class: "fa fa-user" %></li>
+                <li><%= link_to " Posts", user_path(current_user.id), class: "fa fa-list-ul" %></li>
+                <li class="divider"></li>
+                <li><%= link_to " New Post", new_micropost_path(current_user.id), class: "fa fa-pencil" %></li>
+              </ul>
+            </div>
+            <%= link_to destroy_user_session_path, method: :delete, class: "btn btn-primary hidden-xs" do %>
+                <i class="fa fa-sign-out"> Log Out</i>
+            <% end %>
+        <% else %>
+            <%= link_to new_user_registration_path, class: "btn btn-primary hidden-xs" do %>
+                <i class="fa fa-power-off"> Sign Up</i>
+            <% end %>
+                <%= link_to new_user_session_path, class: "btn btn-primary hidden-xs" do %>
+                <i class="fa fa-sign-in"> Log in</i>
+            <% end %>
 
-        </div>
-      </nav>
-    </div>
+        <% end %>
+
+        <%= link_to users_path, class: "btn btn-primary hidden-sm hidden-xs" do %>
+            <i class="fa fa-users"> User List</i>
+        <% end %>
+
+        <%= link_to posts_path, class: "btn btn-primary hidden-sm hidden-xs" do %>
+            <i class="fa fa-check"> All Posts</i>
+        <% end %>
+
+      </div>
+    </nav>
+  </div>
 </header>

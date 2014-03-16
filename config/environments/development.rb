@@ -15,15 +15,9 @@ Wineclub::Application.configure do
 
 
   #Sending email on the development side
-  config.action_mailer.raise_delivery_errors = true
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
-  config.action_mailer.smtp_settings = {
-      :address        => "smtp.mandrillapp.com",
-      :port           => 587,
-      :enable_starttls_auto => true,
-      :user_name      => ENV["MANDRILL_USERNAME"],
-      :password       => ENV["MANDRILL_API"]
-  }
+  config.action_mailer.perform_deliveries = false
+  config.action_mailer.raise_delivery_errors = false
+
 
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log

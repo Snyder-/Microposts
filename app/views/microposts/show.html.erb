@@ -1,25 +1,19 @@
-<div class="center hero-unit">
+<div class="container jumbotron">
 <% title "- #{@user.name}'s Micro" %>
 
-<h1 class="lead"><%= @user.name %> said...</h1>
-<table class="table table-striped table-hover">
-  <thead>
-    <th><strong>Content:</strong></th>
-    <th><strong>User:</strong></th>
-  </thead>
-<p>
-  <tbody>
-    <tr>
-      <td><%= @micropost.content %></td>
-      <td><%= @user.name %></td>
-    </tr>
-  </tbody>
-</p>
+<h2 class="well lead fa fa-quote-left">
+  <%= link_to user_path(@user) do %>
+  <%= show_gravatar_for(@user) %> <%= @user.name %>
+  <% end %>...
 
-</table>
+      <td><%= @micropost.content %></td>
+  <i class="fa fa-quote-right"></i>
+</h2>
+
+
 <div>
   <% if user_signed_in? && @micropost.user_id == current_user.id %>
-    <%= link_to 'Edit', edit_micropost_path(@micropost), class: "btn btn-default"  %> | <%= link_to 'Back', microposts_path, class: "btn btn-default"  %>
+    <%= link_to 'Edit', edit_micropost_path(@micropost), class: "btn btn-default"  %> <%= link_to 'Back', microposts_path, class: "btn btn-default"  %>
   <% else %>
     <%= link_to 'Back', microposts_path, class: "btn btn-default"  %>
   <% end %>

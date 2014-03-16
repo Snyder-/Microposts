@@ -85,6 +85,7 @@ Wineclub::Application.configure do
   ActionMailer::Base.smtp_settings = {
       :address        => "smtp.mandrillapp.com",
       :port           => 587,
+      :domain         => "herokuapp.com",
       :authentication => :plain,
       :user_name      => ENV['MANDRILL_USERNAME'],
       :password       => ENV['MANDRILL_API'],

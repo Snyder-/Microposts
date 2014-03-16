@@ -17,13 +17,12 @@ Wineclub::Application.configure do
   #Sending email on the development side
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
-  ActionMailer::Base.smtp_settings = {
-      :address        => "smtp.gmail.com",
+  config.action_mailer.smtp_settings = {
+      :address        => "smtp.mandrillapp.com",
       :port           => 587,
-      :authentication => :plain,
-      :user_name      => "seanchrono@gmail.com",
-      :password       => "micro1post1",
-      :openssl_verify_mode  => 'none'
+      :enable_starttls_auto => true,
+      :user_name      => ENV["MANDRILL_USERNAME"],
+      :password       => ENV["MANDRILL_API"]
   }
 
   # Print deprecation notices to the Rails logger.

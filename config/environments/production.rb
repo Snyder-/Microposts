@@ -79,18 +79,15 @@ Wineclub::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   #Sending email on the production side
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.raise_delivery_errors = false
-  config.action_mailer.perform_deliveries = true
+  config.action_mailer.raise_delivery_errors = true
   config.action_mailer.default_url_options = { :host => 'herokuapp.com' }
   ActionMailer::Base.smtp_settings = {
-      :address        => "smtp.mandrillapp.com",
+      :address        => "smtp.gmail.com",
       :port           => 587,
       :authentication => :plain,
-      :user_name      => ENV['MANDRILL_USERNAME'],
-      :password       => ENV['MANDRILL_API'],
-      :openssl_verify_mode  => 'none',
-      :enable_starttls_auto => true
+      :user_name      => ENV["GMAIL_USERNAME"],
+      :password       => ENV["GMAIL_API"],
+      :openssl_verify_mode  => 'none'
   }
 end
 

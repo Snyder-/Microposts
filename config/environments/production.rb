@@ -86,8 +86,8 @@ Wineclub::Application.configure do
       :address        => "smtp.mandrillapp.com",
       :port           => 587,
       :authentication => :plain,
-      :user_name      => 'MANDRILL_USERNAME',
-      :password       => 'MANDRILL_API',
+      :user_name      => ENV['MANDRILL_USERNAME'],
+      :password       => ENV['MANDRILL_API'],
       :openssl_verify_mode  => 'none',
       :enable_starttls_auto => true
   }

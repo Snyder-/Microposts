@@ -15,7 +15,16 @@ Wineclub::Application.configure do
 
 
   #Sending email on the development side
-
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  ActionMailer::Base.smtp_settings = {
+      :address        => "smtp.gmail.com",
+      :port           => 587,
+      :authentication => :plain,
+      :user_name      => "seanchrono@gmail.com",
+      :password       => "micro1post1",
+      :openssl_verify_mode  => 'none'
+  }
 
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log

@@ -15,16 +15,15 @@ Wineclub::Application.configure do
 
 
   #Sending email on the development side
+  config.action_mailer.raise_delivery_errors = true
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
-  config.action_mailer.delivery_method = :smtp
-
-  config.action_mailer.perform_deliveries = true
-  config.action_mailer.raise_delivery_errors = false
-  config.action_mailer.smtp_settings = {
-      :address   => "smtp.mandrillapp.com",
-      :port      => 587,
-      :user_name => ENV["MANDRILL_USERNAME"],
-      :password  => ENV["MANDRILL_API"]
+  ActionMailer::Base.smtp_settings = {
+      :address        => "smtp.gmail.com",
+      :port           => 587,
+      :authentication => :plain,
+      :user_name      => "seanchrono@gmail.com",
+      :password       => "micro1post1",
+      :openssl_verify_mode  => 'none'
   }
 
   # Print deprecation notices to the Rails logger.

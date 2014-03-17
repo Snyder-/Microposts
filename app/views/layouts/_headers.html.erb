@@ -29,20 +29,6 @@
                 <li><%= link_to " New Post", new_micropost_path(current_user.id), class: "fa fa-pencil" %></li>
               </ul>
             </div>
-            <div class="btn-group">
-              <button type="button" class="btn btn-primary dropdown-toggle hidden-xs" data-toggle="dropdown">
-                <span><span>Recent</span></span>
-                <span class="sr-only">Toggle Dropdown</span>
-              </button>
-              <ul class="dropdown-menu" role="menu">
-                <ul class="fa-ul">
-                  <% @microposts.recent.each do |f| %>
-                      <li><%= f[0] %> - <%= @user.find(f[1]).name %></li>
-                      <li class="divider"></li>
-                  <% end %>
-                </ul>
-              </ul>
-            </div>
 
             <%= link_to destroy_user_session_path, method: :delete, class: "btn btn-primary hidden-xs" do %>
                 <i class="fa fa-sign-out"> Log Out</i>

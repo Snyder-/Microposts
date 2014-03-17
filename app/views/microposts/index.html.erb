@@ -5,12 +5,7 @@
       <h1 class="container text-center lead">Cannon Fodder</h1>
       <h4 class="lead">Everyone is talking... Is it about you? Is it something you need to know?
         Let us have it. Fire away! </h4>
-      <h2 class="badge">Recent Posts:</h2>
-        <ul class="fa-ul">
-          <% @microposts.recent.each do |f| %>
-            <li><%= f[0] %> - <%= @user.find(f[1]).name %></li>
-          <% end %>
-        </ul>
+      <h2 class="badge center-block"> </h2>
     </div>
   <br>
   <table class="table table-striped table-hover">
